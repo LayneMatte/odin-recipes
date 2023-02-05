@@ -1,0 +1,64 @@
+/* For homepage use .home */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wilson {
+    border-image: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.home h1, h2 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}  
+
+.home .recipe{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+.home a {
+    color: aliceblue;
+}
+.home ul {
+    margin-left: 30%;
+}
+
+/* For recipe pages use element class = .content */
+
+.content h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+.content h2 {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
+
+.etouffee {
+    border-image: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+.content ul li {
+        margin-left: 20%; 
+}
+.content button {
+    margin-left: 50%;
+    font-size:x-large;
+    background-color: black;
+}
+.content a {
+    color: aliceblue;
+}
+
